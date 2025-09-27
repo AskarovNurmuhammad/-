@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
+    <!-- header -->
     <header class="header">
       <nav class="nav">
         <div class="logo">
-          <img class="logotip" src="images/logo.png" alt="" />
-          <h4>АГЕНТСТВО НЕДВИЖИМОСТИ</h4>
+          <img src="images/Лого.png" alt="" />
         </div>
 
         <ul>
@@ -27,8 +27,32 @@
           <li><a href="#contact">Средний ответ</a></li>
         </ul>
 
-        <button class="btn">Обратный звонок</button>
+        <button class="btn desktop-btn">Обратный звонок</button>
+
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <ul>
+          <li><a href="#main" onclick="closeMenu()">Главное</a></li>
+          <li><a href="#buy" onclick="closeMenu()">Купить</a></li>
+          <li><a href="#evaluate" onclick="closeMenu()">Оценивать</a></li>
+          <li><a href="#about" onclick="closeMenu()">Осознать деньги</a></li>
+          <li><a href="#services" onclick="closeMenu()">Летость</a></li>
+          <li><a href="#contact" onclick="closeMenu()">Средний ответ</a></li>
+        </ul>
+        <button
+          class="btn"
+          onclick="closeMenu()"
+          style="margin-top: 15px; width: 100%"
+        >
+          Обратный звонок
+        </button>
+      </div>
 
       <div class="text-container">
         <h2>
@@ -41,6 +65,7 @@
         <button class="btn">Получить консультацию</button>
       </div>
     </header>
+
     <!-- Hero -->
     <section class="hero">
       <div class="hero_left hero_box">
@@ -48,6 +73,7 @@
         <div class="cards">
           <div class="card">
             <img src="images/icon1.svg" alt="" />
+
             <div class="hero_text">
               <h4>Полное юридическое сопровождение сделки</h4>
               <p>Защита от судебных тяжб и недобросовестных покупателей</p>
@@ -56,6 +82,7 @@
 
           <div class="card">
             <img src="images/icon2.svg" alt="" />
+
             <div class="hero_text">
               <h4>Быстрое оформление</h4>
               <p>Оформим сделку всего за 7 дней</p>
@@ -64,6 +91,7 @@
 
           <div class="card">
             <img src="images/icon3.svg" alt="" />
+
             <div class="hero_text">
               <h4>Услуги online</h4>
               <p>Продадим вашу недвижимость в удобном формате</p>
@@ -72,6 +100,7 @@
 
           <div class="card">
             <img src="images/icon4.svg" alt="" />
+
             <div class="hero_text">
               <h4>Максимальная рыночная стоимость</h4>
               <p>Продайте квартиру по самой выгодной цене всего за 1 месяц</p>
@@ -80,13 +109,14 @@
         </div>
       </div>
 
-      <!-- Hero right -->
       <div class="hero_line"></div>
+
       <div class="hero_right hero_box">
-        <h3>Продавцам</h3>
+        <h3>Покупателям</h3>
         <div class="cards">
           <div class="card">
             <img src="images/icon5.svg" alt="" />
+
             <div class="hero_text">
               <h4>Сертифицированное агентство недвижимости</h4>
               <p>Исключим риски изъятия недвижимости после покупки</p>
@@ -95,6 +125,7 @@
 
           <div class="card">
             <img src="images/icon6.svg" alt="" />
+
             <div class="hero_text">
               <h4>Оформление документов</h4>
               <p>Защитим от мошенников и судов</p>
@@ -103,6 +134,7 @@
 
           <div class="card">
             <img src="images/icon7.svg" alt="" />
+
             <div class="hero_text">
               <h4>Безопасность</h4>
               <p>
@@ -113,6 +145,7 @@
 
           <div class="card">
             <img src="images/icon8.svg" alt="" />
+
             <div class="hero_text">
               <h4>Выгодная стоимость квартиры</h4>
               <p>Поможем приобрести объект в рамках вашего бюджета</p>
@@ -121,6 +154,7 @@
         </div>
       </div>
     </section>
+
     <!-- Services -->
     <section class="services">
       <h2>Что мы можем</h2>
@@ -181,6 +215,258 @@
         <div class="swiper-pagination"></div>
       </div>
     </section>
+    <!-- Rabote -->
+    <section>
+      <div class="fon_two">
+        <h2 class="workflow-title">КАК МЫ РАБОТАЕМ</h2>
+
+        <div class="tabs">
+          <div class="tab active">Покупателям</div>
+          <div class="tab">Продавцам</div>
+        </div>
+
+        <div class="workflow-container">
+          <!-- SVG Path - соединяет шаги в правильном порядке: 1-2-3-4-5-6 -->
+          <svg class="workflow-path" viewBox="0 0 1200 500">
+            <path
+              class="path-line"
+              d="M 150 55 
+               L 600 55 
+               L 1050 55 
+               Q 1100 55 1100 105 
+               L 1100 330 
+               Q 1100 380 1050 380 
+               L 600 380 
+               L 150 380"
+            />
+          </svg>
+
+          <div class="steps-grid">
+            <!-- Шаг 1 -->
+            <div class="step" data-order="1">
+              <div class="step-number">1</div>
+              <h3 class="step-title">Найдите себе квартиру</h3>
+              <p class="step-description">
+                Выберите любые подходящие предложения на известных ресурсах.
+                Оцените варианты по своим критериям и остановитесь на лучшем
+              </p>
+            </div>
+
+            <!-- Шаг 2 -->
+            <div class="step" data-order="2">
+              <div class="step-number">2</div>
+              <h3 class="step-title">Получите формальности нам</h3>
+              <p class="step-description">
+                Сообщите контакты продавца или агента. Мы запросим у них все
+                необходимые документы и проведем юридическую проверку квартиры и
+                её владельца
+              </p>
+            </div>
+
+            <!-- Шаг 3 -->
+            <div class="step" data-order="3">
+              <div class="step-number">3</div>
+              <h3 class="step-title">Проверим историю владения квартирой</h3>
+              <p class="step-description">
+                Мы запрашиваем официальные и дополнительные сведения об истории
+                перехода прав на объект, основаниях владения, существующих и
+                снятых ограничениях
+              </p>
+            </div>
+
+            <!-- Шаг 4 -->
+            <div class="step" data-order="4">
+              <div class="step-number">4</div>
+              <h3 class="step-title">Выясним хронику проживания</h3>
+              <p class="step-description">
+                Получим архивные сведения о регистрации в квартире по месту
+                жительства, чтобы исключить проблемы с «отказниками», нарушение
+                прав несовершеннолетних, появление претендентов на «вечное
+                проживание»
+              </p>
+            </div>
+
+            <!-- Шаг 5 -->
+            <div class="step" data-order="5">
+              <div class="step-number">5</div>
+              <h3 class="step-title">Убедимся в порядочности продавца</h3>
+              <p class="step-description">
+                Чтобы вы не имели дел с судимыми; исключили возможное претензий
+                к сделке со стороны кредиторов продавца, «забывшего» погасить
+                долги; не рисковали потерять квартиру по суду, который может
+                признать состоявшегося на психо- или нарко-диспансерном учёте
+                продавца «не осознававшим своих действий»
+              </p>
+            </div>
+
+            <!-- Шаг 6 -->
+            <div class="step" data-order="6">
+              <div class="step-number">6</div>
+              <h3 class="step-title">
+                Предоставим рекомендации по проведению сделки
+              </h3>
+              <p class="step-description">
+                По результатам юридической проверки выдаём правовое заключение о
+                присвоении статуса добросовестного приобретателя, который тоже
+                защищает права покупателя
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Company about -->
+
+    <section class="company">
+      <img src="images/company.png" alt="" />
+      <div class="company_about">
+        <h2>О компании</h2>
+        <h3>Кворум — агентство недвижимости, которому можно доверять!</h3>
+        <div class="company_desc">
+          <p>
+            Компания работает с 2008 года в городе Королев. Предоставляем услуги
+            по всей России — работаем в online-формате. Наше агентство является
+            сертифицированным, так как входит в Гильдию риелторов Московской
+            области и Российскую Гильдию Риелторов.
+          </p>
+          <p>
+            Деятельность сертифицированного агентства застрахована. Не все
+            знают, но сделку по покупке квартиры могут признать
+            недействительной, если ее продавец стал банкротом за год до продажи.
+          </p>
+          <p>
+            Тогда суд забирает недвижимость, чтобы погасить его долги. А
+            покупатель остается и без денег, и без квартиры. В нашем агентстве
+            такие ситуации исключены — в любом случае страховая компания
+            возместит ущерб
+          </p>
+          <p>
+            Все сотрудники сертифицированного агентства должны регулярно
+            обучаться и сдавать квалификационные экзамены. Вы можете быть
+            уверены, что с вами будут работать профессионалы.
+          </p>
+          <p>
+            Сертифицированное агентство гарантирует предоставление качественных
+            услуг. И несет ответственность за каждую сделку, в отличие от
+            несертифицированных организаций
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ulanish -->
+
+    <section class="consultation-section">
+      <div class="consultation-container">
+        <div class="consultation-content">
+          <h2 class="consultation-title">
+            Перезвоним Вам<br />
+            в течение <span class="consultation-highlight">30 минут!</span>
+          </h2>
+          <p class="consultation-subtitle">Консультация бесплатно</p>
+        </div>
+
+        <form class="consultation-form">
+          <div class="form-row">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Имя"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="tel"
+                class="form-input"
+                placeholder="Телефон"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-input" placeholder="E-mail" />
+            </div>
+          </div>
+
+          <div class="checkbox-container">
+            <label class="custom-checkbox">
+              <input type="checkbox" required />
+              <span class="checkmark"></span>
+            </label>
+            <span>Согласен на обработку персональных данных</span>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            Получить консультацию
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact Map Section -->
+    <section class="contact-map-section">
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item">
+            <h4>Адрес</h4>
+            <p>МО, г. Королев, пр. Королева 5Д</p>
+          </div>
+          <div class="contact-item">
+            <h4>Телефон</h4>
+            <p><a href="tel:+79265359908">+7 (926) 535-99-08</a></p>
+          </div>
+          <div class="contact-item">
+            <h4>E-mail</h4>
+            <p><a href="mailto:9706666@mail.ru">9706666@mail.ru</a></p>
+          </div>
+        </div>
+        <div class="map-container">
+          <div class="map-placeholder">
+            <img src="images/Rectangle.jpg" alt="Карта офиса" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-logo-section">
+            <!-- Logo placeholder - replace with your logo -->
+            <img src="images/Лого.png" alt="Кворум" />
+          </div>
+
+          <nav class="footer-nav">
+            <a href="#home">Главная</a>
+            <a href="#services">Услуги</a>
+            <a href="#about">О компании</a>
+            <a href="#request">Оставить заявку</a>
+            <a href="#contacts">Контакты</a>
+          </nav>
+
+          <div class="footer-contact">
+            <a href="tel:+79265359908" class="footer-phone"
+              >+7 (926) 535-99-08</a
+            >
+            <div class="footer-social">
+              <img src="images/Vector.png" alt="" />
+              <img src="images/Vector.svg" alt="" />
+              <img src="images/Vector1.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>
+            <a href="#">Политика конфиденциальности</a>
+          </div>
+          <div>© 2024 Агентство Кворум — агентство недвижимости</div>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
