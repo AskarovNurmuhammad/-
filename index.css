@@ -131,6 +131,9 @@ nav a:hover {
   display: block;
   padding: 10px;
   text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-bottom: none;
 }
 
 .text-container {
@@ -1711,8 +1714,8 @@ nav a:hover {
   }
 
   .logotip {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
   }
 
   .logo h4 {
