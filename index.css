@@ -16,8 +16,7 @@ body {
 .header {
   max-width: 1550px;
   height: 900px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(images/Фон.png) center/cover;
+  background: url(images/Фон.png) center/cover;
   margin: 0 auto;
   position: relative;
 }
