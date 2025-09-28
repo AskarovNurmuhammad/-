@@ -813,13 +813,13 @@ nav a:hover {
 /* Contact Map Section */
 .contact-map-section {
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 80px auto;
+  margin-top: 0;
   border-radius: 20px;
   overflow: hidden;
   background: #fff;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
-
 .contact-container {
   display: flex;
   height: 500px;
