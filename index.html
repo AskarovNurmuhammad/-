@@ -385,55 +385,57 @@
 
     <!-- ulanish -->
 
-    <section class="consultation-section">
-      <div class="consultation-container">
-        <div class="consultation-content">
-          <h2 class="consultation-title">
-            Перезвоним Вам<br />
-            в течение <span class="consultation-highlight">30 </span>минут!
-          </h2>
-          <p class="consultation-subtitle">Консультация бесплатно</p>
+    <div style="background: rgba(246, 245, 245, 1)">
+      <section class="consultation-section">
+        <div class="consultation-container">
+          <div class="consultation-content">
+            <h2 class="consultation-title">
+              Перезвоним Вам<br />
+              в течение <span class="consultation-highlight">30 </span>минут!
+            </h2>
+            <p class="consultation-subtitle">Консультация бесплатно</p>
+          </div>
+
+          <form class="consultation-form">
+            <div class="form-row">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-input"
+                  placeholder="Имя"
+                  required
+                />
+                <span class="required-mark">*</span>
+              </div>
+              <div class="form-group">
+                <input
+                  type="tel"
+                  class="form-input"
+                  placeholder="Телефон"
+                  required
+                />
+                <span class="required-mark">*</span>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-input" placeholder="E-mail" />
+              </div>
+            </div>
+
+            <div class="checkbox-container">
+              <label class="custom-checkbox">
+                <input type="checkbox" required />
+                <span class="checkmark"></span>
+              </label>
+              <span>Согласен на обработку персональных данных</span>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              Получить консультацию
+            </button>
+          </form>
         </div>
-
-        <form class="consultation-form">
-          <div class="form-row">
-            <div class="form-group">
-              <input
-                type="text"
-                class="form-input"
-                placeholder="Имя"
-                required
-              />
-              <span class="required-mark">*</span>
-            </div>
-            <div class="form-group">
-              <input
-                type="tel"
-                class="form-input"
-                placeholder="Телефон"
-                required
-              />
-              <span class="required-mark">*</span>
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-input" placeholder="E-mail" />
-            </div>
-          </div>
-
-          <div class="checkbox-container">
-            <label class="custom-checkbox">
-              <input type="checkbox" required />
-              <span class="checkmark"></span>
-            </label>
-            <span>Согласен на обработку персональных данных</span>
-          </div>
-
-          <button type="submit" class="submit-btn">
-            Получить консультацию
-          </button>
-        </form>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <!-- Contact Map Section -->
     <section class="contact-map-section">
