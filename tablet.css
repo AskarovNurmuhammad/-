@@ -1,0 +1,153 @@
+/* Tablet responsiveness */
+@media (max-width: 1024px) {
+  .nav {
+    padding: 30px 50px 0;
+  }
+
+  .desktop-btn {
+    display: none;
+  }
+
+  .text-container h2 {
+    font-size: 46px;
+  }
+
+  .text-container h3 {
+    font-size: 25px;
+  }
+
+  .hero {
+    max-width: 900px;
+    gap: 35px;
+  }
+
+  .hero_line {
+    height: 350px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+  .mobile-menu.active {
+    display: block;
+  }
+  .fon_two {
+    height: auto; /* Allow natural height expansion */
+    padding-bottom: 50px; /* Add bottom padding */
+  }
+
+  .workflow-path {
+    display: none;
+  }
+
+  .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .step[data-order="1"] {
+    order: 1;
+  }
+  .step[data-order="2"] {
+    order: 2;
+  }
+  .step[data-order="3"] {
+    order: 3;
+  }
+  .step[data-order="4"] {
+    order: 4;
+  }
+  .step[data-order="5"] {
+    order: 5;
+  }
+  .step[data-order="6"] {
+    order: 6;
+  }
+
+  .workflow-title {
+    font-size: 28px;
+  }
+
+  .step {
+    padding: 40px 20px 25px 20px;
+  }
+
+  /* Company section adjustments for tablet */
+  .company {
+    gap: 60px;
+    margin-top: 120px; /* Increased spacing */
+    padding: 60px 40px;
+  }
+
+  .company_about {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+  }
+
+  .company_about h2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+
+  .company_about h3 {
+    font-size: 24px;
+  }
+
+  .company_about p {
+    font-size: 15px;
+  }
+
+  .company_desc {
+    gap: 40px;
+  }
+
+  /* bog'lanish */
+  .consultation-section {
+    padding: 50px 30px;
+  }
+
+  .consultation-container {
+    gap: 60px;
+  }
+
+  .consultation-title {
+    font-size: 32px;
+  }
+
+  .consultation-subtitle {
+    font-size: 17px;
+  }
+
+  /* footer */
+  .contact-map-section {
+    margin: 60px 20px;
+  }
+
+  .contact-container {
+    height: 450px;
+  }
+
+  .contact-info {
+    padding: 40px 30px;
+  }
+
+  .contact-title {
+    font-size: 22px;
+  }
+
+  .footer-container {
+    padding: 0 30px;
+  }
+
+  .footer-nav {
+    gap: 30px;
+  }
+}

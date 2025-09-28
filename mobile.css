@@ -1,0 +1,314 @@
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    min-height: 600px;
+  }
+
+  .nav {
+    padding: 20px 30px 0;
+  }
+
+  .text-container {
+    margin: 150px auto 0;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .text-container h2 {
+    font-size: 36px;
+  }
+
+  .text-container h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+
+  .hero {
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px auto 0;
+    padding: 0 30px;
+  }
+
+  .hero_line {
+    width: 100%;
+    height: 2px;
+    margin: 0;
+  }
+
+  .hero_box {
+    width: 100%;
+  }
+
+  .hero_text h4 {
+    font-size: 18px;
+  }
+
+  .hero_text p {
+    font-size: 15px;
+  }
+
+  .fon_two {
+    height: auto; /* Allow natural height expansion */
+    margin: 50px auto 20px; /* Adjust margins */
+    padding-bottom: 30px;
+  }
+
+  body {
+    padding: 20px 10px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #000;
+  }
+
+  .workflow-section {
+    padding: 30px 15px;
+  }
+
+  .workflow-path {
+    display: none;
+  }
+
+  .steps-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .step[data-order="1"] {
+    order: 1;
+  }
+  .step[data-order="2"] {
+    order: 2;
+  }
+  .step[data-order="3"] {
+    order: 3;
+  }
+  .step[data-order="4"] {
+    order: 4;
+  }
+  .step[data-order="5"] {
+    order: 5;
+  }
+  .step[data-order="6"] {
+    order: 6;
+  }
+
+  .workflow-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .tabs {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .tab {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .step {
+    padding: 35px 20px 25px 20px;
+    margin-top: 15px;
+  }
+
+  .step-number {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    top: -22px;
+    border: 3px solid white;
+  }
+
+  .step-title {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .step-description {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* Company section - prevent overlap */
+  .company {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 80px; /* Reduced from 380px to prevent overlap */
+    padding: 40px 30px;
+  }
+
+  .company img {
+    width: 100%;
+    max-width: 400px;
+    order: 1;
+  }
+
+  .company_about {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    order: 2;
+  }
+
+  .company_about h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .company_about h3 {
+    font-size: 22px;
+  }
+
+  .company_about p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .company_desc {
+    gap: 30px;
+  }
+
+  /* bog'lanish */
+
+  .consultation-section {
+    padding: 40px 20px;
+    border-radius: 15px;
+  }
+
+  .consultation-container {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .consultation-content {
+    max-width: 100%;
+  }
+
+  .consultation-title {
+    font-size: 28px;
+  }
+
+  .consultation-subtitle {
+    font-size: 16px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .form-input {
+    padding: 16px 18px;
+    font-size: 15px;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 15px;
+  }
+
+  /* footer */
+  .contact-map-section {
+    margin: 40px 15px;
+    border-radius: 15px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contact-info {
+    padding: 40px 25px;
+    order: 2;
+  }
+
+  .contact-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .contact-item {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .contact-item h4 {
+    font-size: 15px;
+  }
+
+  .contact-item p {
+    font-size: 15px;
+  }
+
+  .map-container {
+    height: 300px;
+    order: 1;
+  }
+
+  .map-overlay {
+    bottom: 15px;
+    right: 15px;
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+
+  .footer {
+    padding: 400px 0 25px;
+  }
+
+  .footer-container {
+    padding: 0 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer-logo-section {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-company-name {
+    font-size: 20px;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-nav a {
+    font-size: 15px;
+  }
+
+  .footer-contact {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-phone {
+    font-size: 16px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}

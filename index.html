@@ -8,7 +8,38 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .header {
+        max-width: 1550px;
+        height: 900px;
+        background: url(images/Фон.png) center/cover;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 45px 100px 0;
+        font-weight: 400;
+        font-size: 16px;
+      }
+    </style>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="tablet.css" media=" (max-width: 1024px)" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link
+      rel="stylesheet"
+      href="mobile-480.css"
+      media="(min-width: 321px) and (max-width: 480px)"
+    />
+
+    <link rel="stylesheet" href="mobile-360.css" media="(max-width: 320px)" />
   </head>
   <body>
     <!-- header -->
@@ -452,8 +483,8 @@
                 >+7 (926) 535-99-08</a
               >
               <div class="footer-social">
-                <img src="images/Vector.png" alt="watt" />
-                <img src="images/Vector.svg" alt="" />
+                <img src="images/Vector.png" alt="whatsapp" />
+                <img src="images/Vector.svg" alt="telegram" />
                 <img src="images/Vector1.png" alt="" />
               </div>
             </div>
@@ -470,6 +501,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./index.js"></script>
+    <script src="./index.js" defer></script>
   </body>
 </html>

@@ -1,0 +1,149 @@
+@media screen and (max-width: 360px) {
+  .nav {
+    padding: 15px 15px 0;
+  }
+
+  .logo {
+    gap: 8px;
+  }
+
+  .logotip {
+    width: 30px;
+    height: 30px;
+  }
+
+  .logo h4 {
+    font-size: 10px;
+  }
+
+  .btn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .text-container {
+    padding: 25px 15px;
+    margin: 80px auto 0;
+  }
+
+  .text-container h2 {
+    font-size: 24px;
+  }
+
+  .text-container h3 {
+    font-size: 16px;
+  }
+
+  .hero {
+    padding: 0 15px;
+  }
+
+  .hero_box h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .cards {
+    gap: 20px;
+  }
+
+  .card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero_text h4 {
+    font-size: 15px;
+  }
+
+  .hero_text p {
+    font-size: 13px;
+  }
+
+  .mobile-menu {
+    padding: 15px;
+  }
+
+  .mobile-menu ul {
+    gap: 10px;
+  }
+
+  .fon_two {
+    margin: 20px auto 5px;
+  }
+
+  .company {
+    padding: 20px 15px;
+    margin-top: 40px;
+  }
+
+  .company img {
+    max-width: 280px;
+  }
+
+  .company_about {
+    height: auto;
+  }
+
+  .company_about h2 {
+    font-size: 14px;
+  }
+
+  .company_about h3 {
+    font-size: 16px;
+  }
+
+  .company_about p {
+    font-size: 12px;
+  }
+
+  .company_desc {
+    gap: 20px;
+  }
+
+  /* Bog'lanish */
+
+  .consultation-section {
+    padding: 25px 12px;
+  }
+
+  .consultation-title {
+    font-size: 22px;
+  }
+
+  .form-input {
+    padding: 12px 14px;
+  }
+
+  /* footer */
+
+  .contact-info {
+    padding: 25px 15px;
+  }
+
+  .contact-title {
+    font-size: 16px;
+  }
+
+  .map-container {
+    height: 220px;
+  }
+
+  .footer-container {
+    padding: 0 15px;
+  }
+
+  .footer-company-name {
+    font-size: 16px;
+  }
+
+  .footer-nav a {
+    font-size: 13px;
+  }
+
+  .social-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+}
