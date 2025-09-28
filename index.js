@@ -10,7 +10,7 @@ window.addEventListener("scroll", function () {
 
 const swiper = new Swiper(".swiper", {
   slidesPerView: 3,
-  spaceBetween: 30,
+  spaceBetween: 1,
   centeredSlides: true,
   initialSlide: 1, // Начинаем с "Ипотека" (индекс 1)
   loop: false, // Отключаем loop для правильной работы initialSlide

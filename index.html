@@ -50,12 +50,11 @@
         </div>
 
         <ul>
-          <li><a href="#main">Главное</a></li>
-          <li><a href="#buy">Купить</a></li>
-          <li><a href="#evaluate">Оценивать</a></li>
-          <li><a href="#about">Осознать деньги</a></li>
-          <li><a href="#services">Летость</a></li>
-          <li><a href="#contact">Средний ответ</a></li>
+          <li><a href="#main">Главная</a></li>
+          <li><a href="#buy">Услуги</a></li>
+          <li><a href="#evaluate">О компании</a></li>
+          <li><a href="#about">Оставить заявку</a></li>
+          <li><a href="#services">Контакты</a></li>
         </ul>
 
         <button class="btn desktop-btn">Обратный звонок</button>
@@ -69,12 +68,11 @@
 
       <div class="mobile-menu" id="mobileMenu">
         <ul>
-          <li><a href="#main" onclick="closeMenu()">Главное</a></li>
-          <li><a href="#buy" onclick="closeMenu()">Купить</a></li>
-          <li><a href="#evaluate" onclick="closeMenu()">Оценивать</a></li>
-          <li><a href="#about" onclick="closeMenu()">Осознать деньги</a></li>
-          <li><a href="#services" onclick="closeMenu()">Летость</a></li>
-          <li><a href="#contact" onclick="closeMenu()">Средний ответ</a></li>
+          <li><a href="#main" onclick="closeMenu()">Главная</a></li>
+          <li><a href="#buy" onclick="closeMenu()">Услуги</a></li>
+          <li><a href="#evaluate" onclick="closeMenu()">О компании</a></li>
+          <li><a href="#services" onclick="closeMenu()">Оставить заявк</a></li>
+          <li><a href="#contact" onclick="closeMenu()">Контакты</a></li>
         </ul>
         <button
           class="btn"
@@ -190,7 +188,7 @@
     <section class="services">
       <h2>Что мы можем</h2>
       <div class="swiper">
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper dfe">
           <!-- Аренда -->
           <div class="swiper-slide">
             <div class="services_card">
@@ -258,17 +256,16 @@
 
         <div class="workflow-container">
           <!-- SVG Path - соединяет шаги в правильном порядке: 1-2-3-4-5-6 -->
-          <svg class="workflow-path" viewBox="0 0 1200 500">
+          <svg class="workflow-path" viewBox="0 0 1200 510">
             <path
               class="path-line"
               d="M 150 55 
-               L 600 55 
-               L 1050 55 
-               Q 1100 55 1100 105 
-               L 1100 330 
-               Q 1100 380 1050 380 
-               L 600 380 
-               L 150 380"
+                 L 600 55 
+                 L 850 55 
+                 Q 1120 55 1120 227
+                 Q 1120 390 850 390
+                 L 600 390 
+                 L 150 390"
             />
           </svg>
 
@@ -393,7 +390,7 @@
         <div class="consultation-content">
           <h2 class="consultation-title">
             Перезвоним Вам<br />
-            в течение <span class="consultation-highlight">30 минут!</span>
+            в течение <span class="consultation-highlight">30 </span>минут!
           </h2>
           <p class="consultation-subtitle">Консультация бесплатно</p>
         </div>
@@ -407,6 +404,7 @@
                 placeholder="Имя"
                 required
               />
+              <span class="required-mark">*</span>
             </div>
             <div class="form-group">
               <input
@@ -415,6 +413,7 @@
                 placeholder="Телефон"
                 required
               />
+              <span class="required-mark">*</span>
             </div>
             <div class="form-group">
               <input type="email" class="form-input" placeholder="E-mail" />
@@ -479,10 +478,10 @@
             </nav>
 
             <div class="footer-contact">
-              <a href="tel:+79265359908" class="footer-phone"
-                >+7 (926) 535-99-08</a
-              >
               <div class="footer-social">
+                <a href="tel:+79265359908" class="footer-phone"
+                  >+7 (926) 535-99-08</a
+                >
                 <img src="images/Vector.png" alt="whatsapp" />
                 <img src="images/Vector.svg" alt="telegram" />
                 <img src="images/Vector1.png" alt="" />
@@ -495,6 +494,7 @@
           <div>
             <a href="#">Политика конфиденциальности</a>
           </div>
+
           <div>© 2024 Агентство Кворум — агентство недвижимости</div>
         </div>
       </div>
